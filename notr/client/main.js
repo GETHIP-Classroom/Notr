@@ -3,20 +3,31 @@ import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
 
-Template.hello.onCreated(function helloOnCreated() {
-  // counter starts at 0
-  this.counter = new ReactiveVar(0);
-});
+Template.carousel.rendered = function() {
+  $('#carousel').slick({
+    dots: true,
+    arrows: true,
+    autoplay: true,
+    speed: 500,
+  });
+};
 
-Template.hello.helpers({
-  counter() {
-    return Template.instance().counter.get();
-  },
-});
-
-Template.hello.events({
-  'click button'(event, instance) {
-    // increment the counter when button is clicked
-    instance.counter.set(instance.counter.get() + 1);
-  },
-});
+$( document ).ready(function() {
+  
+  $( ".cross" ).hide();
+  $( ".menu" ).hide();
+  $( ".hamburger" ).click(function() {
+  $( ".menu" ).slideToggle( "slow", function() {
+  $( ".hamburger" ).hide();
+  $( ".cross" ).show();
+  });
+  });
+  
+  $( ".cross" ).click(function() {
+  $( ".menu" ).slideToggle( "slow", function() {
+  $( ".cross" ).hide();
+  $( ".hamburger" ).show();
+  });
+  });
+  
+  });
