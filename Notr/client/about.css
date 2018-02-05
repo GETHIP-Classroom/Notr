@@ -1,0 +1,154 @@
+.container-fluid{
+    padding-left: 50;
+  
+  }
+  
+  .navbar-form .form-control{
+    width: 65px;
+    padding: 9px
+  }
+  
+  #carousel {
+    width: 1100px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    top:  100px;
+    width: 100%;
+  }
+  
+  #carousel div {
+    text-align: center;
+    font-size: 72px;
+    color: black;
+  }
+  
+  body{
+    font: 18px italic;
+    font-family: 'Arial';
+    background-color: rgb(58, 64, 66);
+  }
+  
+  .homecontainer{
+    margin-top: 100px;  
+  }
+  
+  .accountcontainer{
+    margin-top: 100px;
+  }
+  
+  .navbar{
+    background-color: rgba(109, 113, 126, 0.75);
+    transition: all 0.45s;
+    border: none;
+  }
+  
+  #notrtitle{
+    font-family: 'Nasalization';
+    font-size: 30px;
+    color: white;
+    text-shadow:
+        2px 2px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+        1px 1px 0 #000;
+    background: url(/images/test.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.95;
+  }
+  
+  #homeImage{
+    width: 100%;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(/images/surveyer.jpg);
+    background-size: cover;
+  }
+  
+  #calendar{
+    margin: 100px;
+    text-align: center;
+    font: arial;
+    font-size: 30px;
+    color: white;
+  }
+  
+  #accountImage{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(/images/hankhill.png);
+    border-style: solid;
+    border-radius: 100px;
+  }
+  
+  #accountName{
+    margin: 10px;
+    text-align: center;
+    font: arial;
+    font-size: 30px;
+    color: white;
+  }
+  
+  #accountBio{
+    margin: 10px;
+    text-align: center;
+    font: arial;
+    font-size: 18px;
+    color: white;
+  }
+  
+  header{
+    width:100%; 
+    margin-top: 100px;
+      background:#ffffff; 
+      height:60px; 
+      line-height:100px;
+      border-bottom:1px solid #dddddd;
+  }
+  
+  .hamburger{
+    background:transparent;
+    position:absolute;
+    top:0;
+    right:0;
+    line-height:45px;
+    padding:5px 15px 0px 15px;
+    color:rgb(0, 0, 0);
+    border:0;
+    font-size:1.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+  }
+  
+  .cross{
+    background:none;
+    position:absolute;
+    top:0px;
+    right:0;
+    padding:5px 15px 0px 15px;
+    color:rgb(0, 0, 0);
+    border:0;
+    font-size:3em;
+    line-height:65px;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+  }
+  
+  .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:15%; background: rgba(109, 113, 126, 0.75); position:absolute; text-align:center; font-size:16px; right:0 ; margin-top: 50px}
+  .menu ul {margin: 100; padding: 0; list-style-type: none; list-style-image: none;}
+  .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;color: rgb(0, 0, 0)}
+  .menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+  .menu ul li a { text-decoration:none;  margin: 0px; color:rgb(0, 0, 0);}
+  .menu ul li a:hover {  color: rgb(0, 0, 0); text-decoration:none;}
+  .menu a{text-decoration:none; color:#666;}
+  .menu a:hover{text-decoration:none; color:#666;}
