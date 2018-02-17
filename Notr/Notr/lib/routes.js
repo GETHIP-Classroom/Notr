@@ -16,7 +16,10 @@ Router.route('/home', function() {
   Router.route('/groups', function() {
     this.render("groups");
   });
- Router.route('/individualGroup', function() {
+  Router.route('/individualGroup', function() {
     this.render("individualGroup");
+  });
+  Router.route('/about', function() {
+    this.render("about");
   });
  

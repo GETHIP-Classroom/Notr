@@ -44,6 +44,9 @@
     transition: all 0.45s;
     border: none;
   }
+  .aboutContainer{
+    margin-top: 100px;
+  }
   
   #notrtitle{
     font-family: 'Nasalization';
@@ -85,6 +88,24 @@
     font-size: 30px;
     color: white;
   }
+  #about{
+    margin: 100px;
+    text-align: center;
+    font: arial;
+    font-size: 30px;
+    color: white;
+  }
+
+  #aboutImage{
+    width: 150px;
+    height: 150px;
+    margin-left: 11.5px;
+    margin-right: 11.5px;
+    background: url(/images/Emma.jpg);
+    border-style: solid;
+    border-radius: 100px;
+  }
+
   #accountImage{
     width: 200px;
     height: 200px;
