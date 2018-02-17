@@ -1,5 +1,5 @@
 <head>
-  <title>Notr</title>
+  <title>Calendr</title>
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 </head>
 
@@ -22,7 +22,7 @@
             <button class="cross">&#735;</button>
             <div class="menu">
               <ul>
-                <a href="/calendar"><li>Calender</li></a>
+                <a href="/calendar"><li>Calendr</li></a>
                 <a href="/notes"><li>Notes</li></a>
                 <a href="/upcoming_events"><li>Upcoming Events</li></a>
                 <a href="/account"><li>Account</li></a>
@@ -33,8 +33,9 @@
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-left">
               <li class><a href="/home">Home</a></li>
-              <li class><a href="/calendar">Calendar</a></li>
+              <li class><a href="/calendar">Calendr</a></li>
               <li class><a href="/account">Account</a></li>
+              <li class><a href="/groups">Groups</a></li>
             </ul>
           </div>
         </div>
@@ -79,6 +80,42 @@
     </div>
     <div id="accountBio">
       I sell propane and propane accessories.
+    </div>
+  </div>
+</template>
+
+<template name="groups">
+    <div class="groupcontainer container" id="groupContainer">
+     <div id="group">
+  <a href="/individualGroup"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png"></a>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png">
+  <p class="left">Group #1 </p>
+  <p class="middle">Group #2 </p>
+  <p class="right">Group #3</p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png">
+  <p class="left">Group #4 </p>
+  <p class="middle">Group #5</p>
+  <p class="right">Group #6 </p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/2000px-Circle_-_black_simple.svg.png">
+  <p class="left">Group #7 </p>
+  <p class="middle">Group #8 </p>
+  <p class="right">Group #9 </p>
+      </div>
+    </div>
+  </template> 
+
+  <template name="individualGroup">
+  <div class="individualGroupContainer container" id="individualGroupContainer">
+    <div id="group">
+      <p>Group #1</p>
+      <p>Members of this group:</p>
+      <p>Bob, Sue, Joe, Phil</p>
+      <a href = "/groups"><button>Back</button></a>
     </div>
   </div>
 </template>
