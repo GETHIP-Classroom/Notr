@@ -44,6 +44,9 @@
     transition: all 0.45s;
     border: none;
   }
+  .aboutContainer{
+    margin-top: 100px;
+  }
   
   #notrtitle{
     font-family: 'Nasalization';
@@ -79,6 +82,13 @@
     color: white;
   }
   #group{
+    margin: 100px;
+    text-align: center;
+    font: arial;
+    font-size: 30px;
+    color: white;
+  }
+  #about{
     margin: 100px;
     text-align: center;
     font: arial;
