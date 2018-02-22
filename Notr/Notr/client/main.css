@@ -47,7 +47,7 @@
   .aboutContainer{
     margin-top: 100px;
   }
-  
+
   #notrtitle{
     font-family: 'Nasalization';
     font-size: 30px;
@@ -177,6 +177,12 @@
   width: 30%;
   float: left;
   margin:1.66%;
+  
+  padding:1px;
+   border:5px solid black;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
 }
 .left {
   float: left;
