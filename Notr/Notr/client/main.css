@@ -99,9 +99,8 @@
   #aboutImage{
     width: 150px;
     height: 150px;
-    margin-left: 11.5px;
-    margin-right: 11.5px;
-    background: url(/images/Emma.jpg);
+    margin-left: 5%;
+    margin-right: 5%;
     border-style: solid;
     border-radius: 100px;
   }
@@ -173,23 +172,17 @@
     z-index:10000000000000;
   }
   
-  img {
-  width: 30%;
-  float: left;
-  margin:1.66%;
-}
+
 .left {
   float: left;
   font-size:23px;
   width: 33.3%;
-  padding-bottom: 20px;
   text-align: center;
 }
 .middle {
   float: left;
   font-size:23px;
   width: 33.3%;
-  padding-bottom: 20px;
   text-align: center;
 
 }
@@ -198,9 +191,7 @@
   float: left;
   font-size:23px;
   width: 33.3%;
-  padding-bottom: 20px;
   text-align: center;
-
 }
 
   .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:15%; background: rgba(109, 113, 126, 0.75); position:absolute; text-align:center; font-size:16px; right:0 ; margin-top: 50px}
