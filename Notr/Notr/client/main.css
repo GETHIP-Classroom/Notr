@@ -172,6 +172,9 @@
     z-index:10000000000000;
   }
   
+  img {
+    width: 150px
+  }
 
 .left {
   float: left;
@@ -184,7 +187,6 @@
   font-size:23px;
   width: 33.3%;
   text-align: center;
-
 }
 
 .right {
