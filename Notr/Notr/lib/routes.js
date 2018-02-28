@@ -22,4 +22,8 @@ Router.route('/home', function() {
   Router.route('/about', function() {
     this.render("about");
   });
+
+  Router.route('/scheduler', function() {
+    this.render("scheduler");
+  });
  
