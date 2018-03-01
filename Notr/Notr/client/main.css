@@ -7,7 +7,7 @@
     width: 65px;
     padding: 9px
   }
-  
+ 
   #carousel {
     width: 1100px;
     height: 200px;
@@ -29,6 +29,12 @@
     background-color: rgb(58, 64, 66);
   }
   
+  .namea {
+    font-size:22px;
+  }
+  .top5 {
+    font-size:16px;
+  }
   .homecontainer{
     margin-top: 100px;  
   }
@@ -45,7 +51,7 @@
     border: none;
   }
   .aboutContainer{
-    margin-top: 100px;
+    margin-top: 0px;
   }
   
   #notrtitle{
@@ -81,6 +87,7 @@
     font-size: 30px;
     color: white;
   }
+  
   #group{
     margin: 100px;
     text-align: center;
@@ -198,6 +205,18 @@
 .calendar {
   margin-top: 50px;
 }
+
+#upcoming {
+  margin: 45%;
+  padding:5%;
+  background-color:blue;
+  color:white;
+  text-align:center;
+}
+
+
+
+
   .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:15%; background: rgba(109, 113, 126, 0.75); position:absolute; text-align:center; font-size:16px; right:0 ; margin-top: 50px}
   .menu ul {margin: 100; padding: 0; list-style-type: none; list-style-image: none;}
   .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;color: rgb(0, 0, 0)}

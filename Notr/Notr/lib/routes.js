@@ -23,3 +23,6 @@ Router.route('/home', function() {
     this.render("scheduler");
   });
  
+  Router.route('/add', function() {
+    this.render("add-group");
+  });
