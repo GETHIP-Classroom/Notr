@@ -9,10 +9,6 @@ Router.route('/home', function() {
   Router.route('/account', function() {
     this.render("account");
   });
-  
-  Router.route('/calendar', function() {
-    this.render("calendar");
-  });
   Router.route('/groups', function() {
     this.render("groups");
   });
@@ -23,7 +19,7 @@ Router.route('/home', function() {
     this.render("about");
   });
 
-  Router.route('/scheduler', function() {
+  Router.route('/calendar', function() {
     this.render("scheduler");
   });
  
