@@ -110,6 +110,10 @@
     margin-right: 5%;
     border-style: solid;
     border-radius: 100px;
+    border:5px solid black;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
   }
 
   #accountImage{
@@ -180,7 +184,18 @@
   }
   
   img {
-    width: 150px
+    width: 150px;
+    
+  }
+
+  #groupImage {
+    padding:1px;
+    border:5px solid black;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    width: 80%;
+
   }
 
 .left {
