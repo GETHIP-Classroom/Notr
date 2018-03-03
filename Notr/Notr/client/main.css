@@ -87,13 +87,18 @@
     font-size: 30px;
     color: white;
   }
-  
+  #aaa {
+    margin-left: 75px;
+  }
   #group{
     margin: 100px;
     text-align: center;
     font: arial;
     font-size: 30px;
     color: white;
+  }
+  #aa {
+    text-align: left;
   }
   #about{
     margin: 100px;
