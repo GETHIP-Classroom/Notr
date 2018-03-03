@@ -229,7 +229,45 @@
   text-align:center;
 }
 
+.username {
+  font-family: Oswald-Medium;
+  font-size: 16px;
+  color: #43383e;
+  line-height: 1.2;
+  display: block;
+  height: 62px;
+  background: #fff;
+  border-radius: 31px;
+  padding: 0 35px 0 35px;
+}
 
+.password {
+  font-family: Oswald-Medium;
+  font-size: 16px;
+  color: #43383e;
+  line-height: 1.2;
+  display: block;
+  height: 62px;
+  background: #fff;
+  border-radius: 31px;
+  padding: 0 35px 0 35px;
+}
+
+p {
+  color: #fff
+}
+
+.submit {
+  font-family: Oswald-Medium;
+  font-size: 16px;
+  color: #43383e;
+  line-height: 1.2;
+  display: block;
+  height: 62px;
+  background: #fff;
+  border-radius: 31px;
+  padding: 0 35px 0 35px;
+}
 
 
   .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:15%; background: rgba(109, 113, 126, 0.75); position:absolute; text-align:center; font-size:16px; right:0 ; margin-top: 50px}

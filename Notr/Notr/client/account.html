@@ -1,13 +1,20 @@
+<head>
+  <link rel="stylesheet" href="main.css"/>
+</head>
+
 <template name="account">
   <div class="accountcontainer container" id="accountContainer">
     <div id="accountImage">
     </div>
+    <br>
     <form>
-        Username:<br>
-        <input type="text" name="username"><br>
-        Password:<br>
-        <input type="text" name="password">
-        <button href="/calendar" type="button"><a href="/calendar">Submit</a></button>
+        <p>Username:</p>
+        <input type="text" name="username" class="username" placeholder="Username">
+        <br>
+        <p>Password:</p>
+        <input type="password" name="password" class="password" placeholder="Password">
+        <br>
+        <button href="/calendar" type="button" class="submit"><a href="/calendar">Submit</a></button>
     </form>
   </div>
 </template>
